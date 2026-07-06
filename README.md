@@ -1,4 +1,4 @@
-# CodeAlpha Basic Chatbot 🤖
+# CodeAlpha Chatbot 🤖
 
 ## 📌 Internship Project
 This repository contains **Task 4: Basic Chatbot** completed as part of my **Python Internship at CodeAlpha**.  
