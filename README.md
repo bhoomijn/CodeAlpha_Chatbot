@@ -41,7 +41,9 @@ The Basic Chatbot is a simple text-based program:
 ## 🎯 Example Input/Output
 
 Welcome to CodeAlpha Chatbot! Type 'bye' to exit.
+
 You: hi
+
 Bot: Hey there! 👋 How are you today?
 You: how are you
 Bot: I'm doing great, thanks for asking! 😊
