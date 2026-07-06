@@ -1,0 +1,26 @@
+# Task 4: Improved Basic Chatbot
+
+print("Welcome to CodeAlpha Chatbot! Type 'bye' to exit.")
+
+while True:
+    user_input = input("You: ").lower().strip()
+
+    if user_input in ["hi", "hello", "hey"]:
+        print("Bot: Hey there! 👋 How are you today?")
+    elif "how are you" in user_input:
+        print("Bot: I'm doing great, thanks for asking! 😊")
+    elif "name" in user_input:
+        print("Bot: I'm your friendly Python chatbot created for the CodeAlpha internship.")
+    elif "help" in user_input:
+        print("Bot: I can chat with you, answer simple questions, and say goodbye when you type 'bye'.")
+    elif "time" in user_input:
+        from datetime import datetime
+        print("Bot: Current time is", datetime.now().strftime("%H:%M:%S"))
+    elif "date" in user_input:
+        from datetime import datetime
+        print("Bot: Today's date is", datetime.now().strftime("%d-%m-%Y"))
+    elif "bye" in user_input:
+        print("Bot: Goodbye! 👋 Have a wonderful day!")
+        break
+    else:
+        print("Bot: Hmm... I don't understand that yet, but I'm learning! 🤔")
